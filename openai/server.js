@@ -13,7 +13,7 @@ app.use(bodyParser.json()); // Parse JSON body
 
 // Initialize OpenAI with API key
 const openai = new OpenAI({
-    apiKey:"API_KEY"});
+    apiKey:"YOUR_API_KEY"});
 
 // POST endpoint for chat
 app.post("/chat", async (req, res) => {
